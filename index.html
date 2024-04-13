@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/style.css">
+    <title>COMOPAY</title>
+</head>
+<body>
+    <div class="blur"></div>
+    <nav>
+        <div class="container navbar">
+            <div class="logo-flex row justify-content-start flex-row align-items-center">
+                <div class="col-2 theCircle">
+                    <div class="logo-circle"></div>
+                </div>
+                <p class="col-10 logo-text"><span>COMO</span>PAY</p>
+            </div>
+            <div class="lg link-list_flex row justify-content-between align-items-center">
+                <a class="col-3 active" href="">Home</a>
+                <a class="col-3" href="">Features</a>
+                <a class="col-3" href="">Blog</a>
+                <a class="col-3" href="">About</a>
+            </div>
+            <div class="lg link_btn">
+                <a href="">Join Waitlist</a>
+            </div>
+            <div class="sm" onclick="openNav()">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30px" height="30px" fill="rgba(255,255,255,1)"><path d="M18 18V20H6V18H18ZM21 11V13H3V11H21ZM18 4V6H6V4H18Z"></path></svg>
+            </div>
+        </div>
+        
+    </nav>
+
+    <div class="hidden-menu">
+        <div class="major-hidden_menu">
+            <div class="hidden-menu_container">
+                <a class="col-3 active" href="">Home</a>
+                <a class="col-3" href="">Features</a>
+                <a class="col-3" href="">Blog</a>
+                <a class="col-3" href="">About</a>
+                <div class=" link_btn">
+                    <a href="">Join Waitlist</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero_flex row flex-column flex-lg-row justify-content-between align-items-center">
+                <div class="hero-flex_item col-lg-8">
+                    <span class="faded_text">Your Gateway to Financial Freedom! 🍾</span>
+                    <h1 class="main-header fade">ComoPay: Your Path To Financial <span class="faded-span">Essentials!</span></h1>
+                    <p class="header-text fade-right">
+                        ComoPay is designed to elevate living standards with consumer credit financing for all essentials - groceries, 
+                        healthcare, transportation, utilities, and more. Just Buy now, pay later!
+                    </p>
+                    <div class="btn_area fade">
+                        <button class="soon">
+                            <img src="assets/028.png" alt >
+                            <img src="assets/029.png" alt >
+                            <span >Coming Soon!</span>
+                        </button>
+                        <button class="join">Join Waitlist</button>
+                    </div>
+                </div>
+                <div class="col-lg-4 hero-logo_block fade-left">
+                    <img src="assets/Dark.png" alt class="hero_logo">
+                </div>
+            </div>
+            <div class="company_logo">
+                <div class="logo_flex">
+                    <div class="logo_flex_item">
+                        <img src="assets/001.png" alt>
+                    </div>
+                    <div class="logo_flex_item">
+                        <img src="assets/002.png" alt>
+                    </div>
+                    <div class="logo_flex_item">
+                        <img src="assets/003.png" alt>
+                    </div>
+                    <div class="logo_flex_item">
+                        <img src="assets/004.png" alt>
+                    </div>
+                    <div class="logo_flex_item">
+                        <img src="assets/005.png" alt>
+                    </div>
+                    <div class="logo_flex_item">
+                        <img src="assets/006.png" alt>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="discover container">
+        <div class="main-container">
+            <div class="boxed_header-block">
+                <span class="boxed_header">Lorem ipsum dolor sit amet🥉</span>
+            </div>
+            <div style="overflow: hidden">
+                <h2 class="fade-left">Discover the Power of ComoPay</h2>
+                <p class="mini_text fade-right">ComoPay isn't just a finance app; it's your ally for efficient financial management. Access services tailored for ease.</p>
+            </div>
+            
+            <div class="minor_container">
+                <div class="minor-container_flex row flex-column flex-lg-row justify-content-between">
+                    <div class="minor_item col-md-12 col-lg-4 fade">
+                        <p class="minor-header">Cash Advance</p>
+                        <p class="minor-text">Running low on funds? ComoPay offers instant access to 50% of your salary without traditional loan hassles.</p>
+                        <div class="payday-container">
+                            <img src="assets/007.png" alt class="floatingImg">
+                            <div class="payday">
+                                <p class="pay-header">Payday Loan</p>
+                                <div class="mini_flex row align-items-center">
+                                    <div class="col-2">
+                                        <img src="assets/008.png" alt>
+                                    </div>
+                                    <p class="col-6 mini-p">Available Credit Limit<br><span>N200,000.00</span></p>
+                                </div> 
+                                <div class="mini_flex row align-items-center">
+                                    <div class="col-2">
+                                        <img src="assets/008.png" alt>
+                                    </div>
+                                    <p class="col-6 mini-p">Available Credit Limit<br><span>N200,000.00</span></p>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="minor_item col-md-12 col-lg-4 fade delay1">
+                        <div id="no01" class="wrapper">
+                            <div class="scroll_infinite wrapper-boxes">
+                                <div class="wrapper-box scroll-rel">
+                                    <p class="off">4% off</p>
+                                    <img src="assets/010.png" alt>
+                                </div>
+                                
+                                <img class="wrapper-box" src="assets/011.png" alt>
+                                <img class="wrapper-box" src="assets/012.png" alt>
+                                <img class="wrapper-box" src="assets/013.png" alt>
+                            </div>
+                            
+                        </div>
+                        <div id="no02" class="wrapper bottom-scroll">
+                            <div class="scroll_infinite wrapper-boxes">
+                                <img class="wrapper-box" src="assets/011.png" alt>
+                                <img class="wrapper-box" src="assets/013.png" alt>
+                                <div class="wrapper-box scroll-rel">
+                                    <p class="off">4% off</p>
+                                    <img src="assets/012.png" alt>
+                                </div>
+                                
+                                <img class="wrapper-box" src="assets/010.png" alt>
+                            </div>
+                        </div>
+                        <div class="utility">
+                            <p class="minor-header">Utility Bill Payments</p>
+                            <p class="minor-text">Get up to 4% discount on airtime, data, and utility bill payments. 
+                                Use your available credit line for convenient buy now, pay later options.</p>
+                        </div>
+                    </div>
+                    <div class="minor_item col-md-12 col-lg-4 fade delay2">
+                        <p class="minor-header">Essential Commodities</p>
+                        <p class="minor-text">Shop essentials now, pay later with nearby partners and online marketplace. Convenience for groceries, 
+                            fuel, shopping, healthcare, transportation, and more.</p>
+                        <div class="mini_grid">
+                            <img src="assets/014.png" alt>
+                            <img src="assets/015.png" alt>
+                            <img src="assets/016.png" alt>
+                            <img src="assets/017.png" alt>
+                            <img src="assets/018.png" alt>
+                            <img src="assets/019.png" alt>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cards">
+        <div class="container">
+            <span class="faded_text">Credit Access Card</span>
+            <p class="cards-header fade">The Future: Como Credit Card</p>
+            <p class="cards-text fade">Discover financial freedom with the ComoPay Credit Card. Benefit from seamless transactions, 
+                exclusive rewards, and flexible credit payment options.</p>
+            <div class="cards_flex lg-scroll">
+                <div class="host">
+                    <img src="assets/039.png" alt id="black">
+                </div>
+                <div class="host" >
+                    <img src="assets/037.png" alt id="green">
+                </div>
+                <div class="host">
+                    <img src="assets/038.png" alt id="orange">
+                </div>
+                <!-- <div class="host" id="white"></div> -->
+<!--                 
+                <img src="assets/040.png" alt>
+                <img src="assets/041.png" alt> -->
+            </div>
+            <div class="mini-scroll">
+                <!-- <div class="mini-scroll-"></div>
+                <div class="mini-scroll-"></div>
+                <div class="mini-scroll-"></div>
+                <div class="mini-scroll-"></div>
+                <div class="mini-scroll-"></div> -->
+                <img src="assets/037.png" alt>
+                <img src="assets/039.png" alt>
+                <img src="assets/038.png" alt>
+                <img src="assets/040.png" alt>
+                <img src="assets/041.png" alt>
+            </div>
+        </div>
+    </section>
+    <section class="testimonial">
+        <div class="container">
+            <span class="faded_text">Testimonials 🍾</span>
+            <p class="cards-header fade">Public Opinion on ComoPay</p>
+            <p class="cards-text fade">Discover why people are rooting for ComoPay to revolutionize their financial management:</p>
+            <div class="img_flex row justify-content-center">
+                <img src="assets/020.png" alt class="col">
+                <img src="assets/021.png" alt class="col">
+                <img src="assets/022.png" alt class="col">
+                <img src="assets/023.png" alt class="col">
+                <img src="assets/024.png" alt class="col">
+            </div>
+            <div class="testimonial_flex">
+                <div class="comment_slab">
+                    <p class="theComment">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    <div>
+                        <p class="theName">Emmanuel Priestley</p>
+                        <p class="nickname">@hey_emmah</p>
+                    </div>
+                </div>
+                <div class="comment_slab">
+                    <p class="theComment">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    <div>
+                        <p class="theName">Emmanuel Priestley</p>
+                        <p class="nickname">@hey_emmah</p>
+                    </div>
+                </div>
+                <div class="comment_slab">
+                    <p class="theComment">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    <div>
+                        <p class="theName">Emmanuel Priestley</p>
+                        <p class="nickname">@hey_emmah</p>
+                    </div>
+                </div>
+                <div class="comment_slab">
+                    <p class="theComment">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    <div>
+                        <p class="theName">Emmanuel Priestley</p>
+                        <p class="nickname">@hey_emmah</p>
+                    </div>
+                </div>
+                <div class="comment_slab">
+                    <p class="theComment">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    <div>
+                        <p class="theName">Emmanuel Priestley</p>
+                        <p class="nickname">@hey_emmah</p>
+                    </div>
+                </div>
+            </div>
+            <div class="progress-bars">
+                <div class="progress-bar"></div>
+                <div class="progress-bar"></div>
+                <div class="progress-bar"></div>
+                <div class="progress-bar"></div>
+                <div class="progress-bar"></div>
+              </div>
+        </div>
+    </section>
+    <section class="experience">
+        <div class="container">
+            <div class="experience_flex row flex-column flex-lg-row justify-content-between align-items-center">
+                <div class="experience-flex_item col-lg-6">
+                    <span class="faded_text">Lorem ipsum dolor sit amet 🍾</span>
+                    <p class="exp-header fade">Experience ComoPay Today</p>
+                    <p class="exp-text fade-right">Get Inside: Explore ComoPay with interactive screenshots. Discover its features, interface, and functionalities firsthand.</p>
+                    <div class="lists">
+                        <div class="lists-item_flex row align-items-center">
+                            <div style="padding-left: 0;" class="col-2">
+                                <img src="assets/025.png" alt >
+                            </div>
+                            <p class="col-6">Download<br><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span></p>
+                        </div>
+                        <div class="lists-item_flex row align-items-center">
+                            <div style="padding-left: 0;" class="col-2">
+                                <img src="assets/026.png" alt>
+                            </div>
+                            <p class="col-6">Verify Mobile Number<br><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span></p>
+                        </div>
+                        <div class="lists-item_flex row align-items-center">
+                            <div style="padding-left: 0;" class="col-2">
+                                <img src="assets/027.png" alt>
+                            </div>
+                            <p class="col-6">Explore and use<br><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span></p>
+                        </div>
+                    </div>
+                </div>
+               <div class="experience-flex_item col-lg-6 fade-left">
+                <img src="assets/036.png" alt class="wave">
+                <img src="assets/035.png" alt="" class="phone">
+               </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter container">
+        <span class="boxed_header">Lorem ipsum dolor sit amet🥉</span>
+        <p class="news_header fade">Join the ComoPay Community</p>
+        <p class="news_text fade-right">Join Our Empowered Community: Take control of your finances with ComoPay. Sign up for exclusive updates and early access.</p>
+        <div class="btn_area white-border fade-left">
+            <button class="soon">
+                <img src="assets/042.png" alt >
+                <img src="assets/043.png" alt >
+                <span style="color: white">Coming Soon!</span>
+            </button>
+            <button class="join">Join Waitlist</button>
+        </div>
+    </section>
+
+    <footer class="footer container">
+        <div class="footer-container">
+            <div>
+                <p>© 2024 — ComoPay Inc.</p>
+            </div>
+            <div class="footer-org">
+                <a href="">Features</a>
+                <a href="">Blog</a>
+                <a href="">About</a>
+                <a href="">Help And Support</a>
+            </div>
+            <div>
+                <a href=""><img src="assets/030.png" alt></a>
+                <a href=""><img src="assets/031.png" alt></a>
+                <a href=""><img src="assets/032.png" alt></a>
+                <a href=""><img src="assets/033.png" alt></a>
+            </div>
+        </div>
+        
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+    <script>
+
+        function openNav() {
+            const menuBar = document.querySelector('.hidden-menu');
+            let hiddenNav = document.querySelector('.major-hidden_menu');
+            
+            if((menuBar.classList.contains('open')) === false) {
+            menuBar.classList.add('open');
+            hiddenNav.style.animationName = 'slideInFromTop';
+            // setTimeout(function() {
+            //   hiddenNav.classList.add('showed');
+            // }, 20)
+            } else {
+            hiddenNav.style.animationName = 'slideOutToTop';
+            setTimeout(function() {
+                menuBar.classList.remove('open');
+            },320)
+                
+            }
+        }
+
+
+       window.onload = function() {
+        const flexContainer = document.querySelector('.mini-scroll');
+        const images = flexContainer.querySelectorAll('img');
+        const scrollSpeed = 2; // Adjust the scroll speed as needed
+        const totalWidth = flexContainer.scrollWidth; // Total width of all images
+        let scrollPos = 0;
+        let isPaused = false;
+
+        function scrollImages() {
+            if(!isPaused) {
+                scrollPos += scrollSpeed;
+                if (scrollPos >= totalWidth) {
+                    scrollPos = 0;
+                flexContainer.scrollLeft = 0;
+                } else {
+                    flexContainer.scrollLeft += scrollSpeed;
+                }
+            }
+            
+        }
+
+            setInterval(scrollImages, 10); // Adjust the interval for smoother or faster scrolling
+
+            // Pause scrolling when the cursor is over the container
+            flexContainer.addEventListener('mouseenter', function() {
+                isPaused = true;
+            });
+
+            // Resume scrolling when the cursor leaves the container
+            flexContainer.addEventListener('mouseleave', function() {
+                isPaused = false;
+            });
+
+            // Pause scrolling when there's a touch input
+            flexContainer.addEventListener('touchstart', function() {
+                isPaused = true;
+            });
+
+            // Resume scrolling when the touch input ends
+            flexContainer.addEventListener('touchend', function() {
+                isPaused = false;
+            });
+        };
+
+
+        window.onload = function() {
+            const flexContainer = document.querySelector('.testimonial_flex');
+            const images = flexContainer.querySelectorAll('.comment_slab');
+            const progressBars = document.querySelectorAll('.progress-bar');
+            const scrollSpeed = 2; // Adjust the scroll speed as needed
+            const totalWidth = flexContainer.scrollWidth; // Total width of all images
+            let scrollPos = 0;
+            let isPaused = false;
+            let currentImageIndex = 0;
+
+            function scrollImages() {
+                if(!isPaused) {
+                    scrollPos += scrollSpeed;
+                    if (scrollPos >= totalWidth) {
+                        scrollPos = 0;
+                    flexContainer.scrollLeft = 0;
+                    } else {
+                        flexContainer.scrollLeft += scrollSpeed;
+                    }
+                    updateProgressBar();
+                }
+                
+            }
+
+            function updateProgressBar() {
+                const currentIndex = Math.floor(flexContainer.scrollLeft / flexContainer.clientWidth);
+                if (currentIndex !== currentImageIndex) {
+                    progressBars[currentImageIndex].classList.remove('progress-active');
+                    currentImageIndex = currentIndex;
+                    progressBars[currentImageIndex].classList.add('progress-active');
+                }
+            }
+
+            setInterval(scrollImages, 20); // Adjust the interval for smoother or faster scrolling
+
+            // Pause scrolling when the cursor is over the container
+            flexContainer.addEventListener('mouseenter', function() {
+                isPaused = true;
+            });
+
+            // Resume scrolling when the cursor leaves the container
+            flexContainer.addEventListener('mouseleave', function() {
+                isPaused = false;
+            });
+
+            // Pause scrolling when there's a touch input
+            flexContainer.addEventListener('touchstart', function() {
+                isPaused = true;
+            });
+
+            // Resume scrolling when the touch input ends
+            flexContainer.addEventListener('touchend', function() {
+                isPaused = false;
+            });
+
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    isPaused = true;
+                    setTimeout(() => {
+                    isPaused = false;
+                    }, 3000); // Pause for 3 seconds
+                }
+                });
+            }, { threshold: 1 });
+
+            images.forEach(image => {
+                observer.observe(image);
+            });
+        };
+
+
+
+        console.clear();
+    
+    gsap.set('.wrapper',{xPercent:-50,yPercent:-50})
+    
+    
+    var boxWidth = 150,
+        totalWidth = boxWidth * 4,  //  * n of boxes
+        no01 = document.querySelectorAll("#no01 .wrapper-box"),
+        no02 = document.querySelectorAll("#no02 .wrapper-box"),
+        dirFromLeft = "+=" + totalWidth,
+        dirFromRight = "-=" + totalWidth;
+    
+    var mod = gsap.utils.wrap(0, totalWidth);
+    
+    function marquee(which, time, direction){
+      gsap.set(which, {
+        x:function(i) {
+          return i * boxWidth;
+        }
+      });
+      var action = gsap.timeline()
+      .to(which, {autoAlpha:1, duration:0.1, stagger:-2})
+      .to(which,  {
+      x: direction,
+      modifiers: {
+        x: x => mod(parseFloat(x)) + "px"
+      },
+        duration:time, ease:'none',
+        repeat:-1,
+      },0);
+      return action
+    }
+    
+    var master = gsap.timeline()
+    .add(marquee(no01, 20, dirFromRight))
+
+    var master2 = gsap.timeline()
+    .add(marquee(no02, 20, dirFromLeft))
+    
+    // =============================
+
+
+
+
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('show')
+                }
+            });
+        });
+
+        const hiddenElements = document.querySelectorAll('.fade');
+        hiddenElements.forEach((el) => observer.observe(el));
+
+        
+
+        const observedElements1 = document.querySelectorAll('.fade-left');
+
+        const observer1 = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+            const targetElement = entry.target;
+
+            if (entry.isIntersecting) {
+                // Add or remove classes based on the intersection
+                targetElement.classList.add('reveal');
+            }
+            });
+        });
+
+        observedElements1.forEach(element => {
+            observer1.observe(element);
+        });
+
+        const observedElements2 = document.querySelectorAll('.fade-right');
+
+        const observer2 = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+            const targetElement = entry.target;
+
+            if (entry.isIntersecting) {
+                // Add or remove classes based on the intersection
+                targetElement.classList.add('reveal');
+            }
+            });
+        });
+
+        observedElements2.forEach(element => {
+            observer2.observe(element);
+        });
+    </script>
+</body>
+</html>
