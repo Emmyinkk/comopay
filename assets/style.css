@@ -983,7 +983,8 @@ a {
     }
 
     .minor_item {
-        width: 100%;
+        width: 70%;
+        margin: 0 auto;
     }
     .discover {
         padding: 30px;
@@ -1053,6 +1054,14 @@ a {
     
     .btn_area {
         margin: 0 auto;
+    }
+
+    .white-border {
+        margin-left: 0;
+    }
+
+    .hero_logo {
+        width: 30%;
     }
 }
 
