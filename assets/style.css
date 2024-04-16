@@ -718,12 +718,13 @@ a {
 .img_flex {
     padding-top: 56px;
     padding-bottom: 41px;
-    width: 400px;
+    width: 80%;
+    max-width: 400px;
     margin: 0 auto;
 }
 
 .img_flex img {
-    width: 72px; 
+    width: 52px; 
     height: auto;
 }
 
@@ -1160,5 +1161,9 @@ a {
     .mini-scroll img {
         width: 100%;
         flex: 0 0 auto;
+    }
+
+    .minor_item {
+        width: 100%;
     }
 }
