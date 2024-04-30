@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 * {
     padding: 0; 
     margin: 0;
@@ -218,7 +220,7 @@ a {
     padding: 8px 16px;
 }
 
-.link_btn a:hover, .join:hover {
+.link_btn a:hover {
     scale: 1.05;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.24) 0%, rgba(255, 255, 255, 0.00) 100%), #1AD079;
     padding: 8px 16px;
@@ -350,16 +352,56 @@ a {
 
 .header-text {
     color: #494D55;
-    font-family: Geist;
-    font-size: 16px;
+    font-family: "Mulish", sans-serif;
+    font-size: 18px;
     font-style: normal;
-    font-weight: 84;
-    line-height: 24px; /* 150% */
+    font-weight: 600;
+    line-height: normal;
     text-transform: capitalize;
     margin: 32px 0;
     width: 680px;
     margin: 0 auto;
     padding-top: 30px;
+}
+
+.pop {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+
+.imageLast {
+    width: 40px;
+    height: 40px;
+}
+
+.theFooterBreak {
+    margin-top: 80px
+}
+
+.theFooterBreak span {
+    color: #494D55;
+    font-family: Geist;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 112.5% */
+}
+
+.btnShade, .btnShade1 {
+    padding: 5px;
+    border: 1px dashed white;
+    border-radius: 14px;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+.btnShade:hover, .btnShade1:hover {
+    scale: 1.05;
+}
+
+.btnShade1 {
+    border: 1px dashed black;
 }
 
 .hero-logo_block {
@@ -407,17 +449,20 @@ a {
 }
 
 .join {
-    border-radius: 14px;
-    border: 1px solid #FFF;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.24) 0%, rgba(255, 255, 255, 0.00) 100%), #1AD079;
     box-shadow: 0px 4px 14.2px 0px rgba(26, 208, 121, 0.25), 0px 0px 0px 1px #5FDEA1;
     transition: .3s ease-in-out;
+    width: 100%;
+    height: 100%;
+    border: none!important;
+    border-radius: 8px!important;
+    cursor: pointer;
 }
 
 .freeBg {
     margin-top: 80px;
     margin-bottom: 80px;
-    background: url(/assets/046.png) lightgray 50%/ cover  no-repeat;
+    background: url(/assets/046.png) no-repeat;
     height: 500px;
     border-radius: 80px;
     position: relative;
@@ -1156,6 +1201,11 @@ a {
     margin-bottom: 33px;
 }
 
+.theBottomGrid {
+    width: 70%;
+    margin: 0 auto;
+}
+
 .footer-container {
     display: flex;
     justify-content: space-between;
@@ -1172,6 +1222,7 @@ a {
     justify-content: space-between;
     align-items: center;
     gap: 20px;
+    width: 30%
 }
 
 .footer-org a {
@@ -1180,6 +1231,16 @@ a {
 
 .footer-org a:hover {
     color: #1AD079;
+}
+
+.downText {
+    color: #494D55;
+    font-family: Geist;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 150% */
+    text-transform: capitalize;
 }
 
 .mini-scroll {
