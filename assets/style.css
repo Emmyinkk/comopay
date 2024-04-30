@@ -462,7 +462,8 @@ a {
 .freeBg {
     margin-top: 80px;
     margin-bottom: 80px;
-    background: url(/assets/046.png) no-repeat;
+    background: url(/assets/046.png);
+    background-repeat: no-repeat;
     height: 500px;
     border-radius: 80px;
     position: relative;
@@ -607,27 +608,27 @@ a {
 }
 
 .delay1 {
-    transition-delay: 200ms;
+    transition-delay: 50ms;
 }
 
 .delay2 {
-    transition-delay: 400ms;
+    transition-delay: 100ms;
 }
 
 .delay3 {
-    transition-delay: 600ms;
+    transition-delay: 150ms;
 }
 
 .delay4 {
-    transition-delay: 800ms;
+    transition-delay: 200ms;
 }
 
 .delay5 {
-    transition-delay: 1000ms;
+    transition-delay: 250ms;
 }
 
 .delay6 {
-    transition-delay: 1200ms;
+    transition-delay: 300ms;
 }
 
 .wrapper {
@@ -1611,6 +1612,11 @@ a {
 
     .logo-text {
         margin-left: -5px;
+    }
+
+    .pop {
+        width: 40px;
+        height: 40px;
     }
 }
 
