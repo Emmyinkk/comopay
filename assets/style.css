@@ -1338,13 +1338,18 @@ a {
     }
 
     .footer-container {
-        flex-direction: column-reverse;
+        flex-direction: column;
         gap: 50px;
     }
 
     .footer-org {
         flex-direction: column;
         gap: 20px;
+    }
+
+    .enclose {
+        width: 120px;
+        margin: 0 auto;
     }
 
     .cards {
