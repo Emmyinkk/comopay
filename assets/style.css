@@ -464,6 +464,7 @@ a {
     margin-bottom: 80px;
     background: url(/assets/046.png);
     background-repeat: no-repeat;
+    width: 100%;
     height: 500px;
     border-radius: 80px;
     position: relative;
