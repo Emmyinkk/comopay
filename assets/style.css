@@ -468,6 +468,7 @@ a {
     height: 500px;
     border-radius: 80px;
     position: relative;
+    background-size: cover;
 }
 
 .topPart, .bottomPart, .bottomRight {
