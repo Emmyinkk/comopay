@@ -1625,6 +1625,10 @@ a {
         width: 40px;
         height: 40px;
     }
+
+    .theFooterBreak,  .downText{
+        margin-top: 30px!important;
+    }
 }
 
 @media screen and (max-width: 479px) {
