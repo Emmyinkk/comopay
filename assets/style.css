@@ -275,6 +275,10 @@ a {
     overflow: hidden;
 }
 
+.abt_hero {
+    margin-bottom: 0px!important;
+}
+
 .hero_flex {
     overflow: hidden;
 }
@@ -471,6 +475,72 @@ a {
     background-size: cover;
 }
 
+.freeBg2 {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background-image: url(../assets/080.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    border-radius: 30px;
+    position: relative;
+    background-size: cover;
+}
+
+.abt-teamHead {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.abt-teamHead h2 {
+    color: #1C202B;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.abt-teamHead p {
+    color: #494D55;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 100%;
+    max-width: 922px;
+    margin: 0 auto;
+}
+
+.abt-hero-head {
+    width: 100%;
+    max-width: 922px;
+}
+
+.abt-flexx {
+    margin-top: 50px;
+}
+
+.abt-image_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.abt_image {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.abtImage {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
 .topPart, .bottomPart, .bottomRight {
     position: absolute;
     transform: translate(-50%, -50%);
@@ -557,6 +627,10 @@ a {
     grid-template-columns: repeat(2, 1fr);
     gap: 32px;
     margin-bottom: 32px;
+}
+
+.abt_grid {
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .discover-grid_child {
@@ -786,6 +860,11 @@ a {
     overflow: hidden;
     padding-top: 80px;
     padding-bottom: 100px;
+}
+
+.abt_first {
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .cash_header {
@@ -1268,7 +1347,8 @@ a {
     line-height: 18px; /* 150% */
     text-transform: capitalize;
     text-align: center;
-    width: 800px;
+    width: 100%;
+    max-width: 800px;
     margin: 0 auto;
 }
 
@@ -1281,6 +1361,10 @@ a {
     border: 1px dashed #0B081B;
     padding: 24px;
     border-radius: 24px;
+}
+
+.abt-item {
+    border: none;
 }
 
 .image-side20 {
@@ -1522,6 +1606,11 @@ a {
         grid-template-columns: repeat(3, 1fr)!important;
         width: 100%;
     }
+
+    .abt_hero {
+        margin-top: 80px!important;
+        margin-bottom: 0px!important;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -1595,7 +1684,7 @@ a {
         bottom: -50%;
     }
 
-    .freeBg {
+    .freeBg, .freeBg2 {
         height: 300px;
         border-radius: 20px;
     }
@@ -1667,6 +1756,29 @@ a {
         width: 60%;
     }
 
+    .abt_grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .abt-flexst {
+        flex-direction: column-reverse!important;
+    }
+
+    .abt-item p {
+        font-size: 16px;
+    }
+
+    .abt-teamHead h2 {
+        font-size: 30px;
+    }
+
+    .cash_header h2 {
+        font-size: 30px;
+    }
+
+    .abt-teamHead p {
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 479px) {
