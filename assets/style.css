@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 * {
     padding: 0; 
@@ -338,13 +339,16 @@ a {
 
 .main-header {
     color: #0B081B;
-    font-family: Geist;
-    font-size: 64px;
+    font-family: "Inter", sans-serif;
+    font-size: 50px;
     font-style: normal;
-    font-weight: 106;
+    font-weight: 700;
     line-height: 76px; /* 118.75% */
     text-transform: capitalize;
     padding-top: 40px;
+    width: 100%;
+    max-width: 922px;
+    margin: 0 auto;
 }
 
 .faded-span {
@@ -356,11 +360,11 @@ a {
 
 .header-text {
     color: #494D55;
-    font-family: "Mulish", sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 18px;
     font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+    font-weight: 400;
+    line-height: 28px;
     text-transform: capitalize;
     margin: 32px 0;
     width: 680px;
