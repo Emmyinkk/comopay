@@ -376,7 +376,7 @@ a {
 }
 
 .theFooterBreak {
-    margin-top: 80px
+    margin-top: 30px
 }
 
 .theFooterBreak span {
@@ -1209,6 +1209,29 @@ a {
     margin: 0 auto;
 }
 
+.theborderblock {
+    width: 100%;
+    height: 1px;
+    background: #F1F1F1;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.theLastOne {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.theLastOne p, .theLastOne span {
+    color: #494D55;
+    font-family: Geist;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 84;
+    line-height: 18px; /* 150% */
+    text-transform: capitalize;
+}
+
 .footer-container {
     display: flex;
     justify-content: space-between;
@@ -1237,13 +1260,16 @@ a {
 }
 
 .downText {
-    color: #494D55;
+    color: #010101;
     font-family: Geist;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
     line-height: 18px; /* 150% */
     text-transform: capitalize;
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
 }
 
 .mini-scroll {
@@ -1491,6 +1517,11 @@ a {
     .logo-text {
         margin-left: -60px;
     }
+
+    .theBottomGrid {
+        grid-template-columns: repeat(3, 1fr)!important;
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -1628,7 +1659,14 @@ a {
 
     .theFooterBreak,  .downText{
         margin-top: 30px!important;
+        width: 100%;
     }
+
+    .theBottomGrid {
+        grid-template-columns: repeat(1, 1fr)!important;
+        width: 60%;
+    }
+
 }
 
 @media screen and (max-width: 479px) {

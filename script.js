@@ -169,3 +169,11 @@ if (entry.isIntersecting) {
 
 const hiddenElementsDown = document.querySelectorAll('.fade-down');
 hiddenElementsDown.forEach((el) => observer.observe(el));
+
+
+
+
+
+// UPDATE YEAR
+let date = new Date().getFullYear();
+document.getElementById("currentYear").textContent = date;
