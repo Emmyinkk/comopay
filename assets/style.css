@@ -434,7 +434,6 @@ a {
 
 .btn_area button {
     border-radius: 16px;
-    border: 1px dashed #0B081B;
     padding: 10px 12px;
     color: #0B081B;
     font-family: Geist;
@@ -450,6 +449,7 @@ a {
     display: flex;
     align-items: center;
     gap: 5px;
+    border: none!important;
 }
 
 .join {
@@ -1786,9 +1786,9 @@ a {
         width: 90%;
     }
     .btn_area {
-        width: 60%;
+        width: 100%;
         margin: 0 auto;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
     .white-border {
         width: 90%;
@@ -1799,6 +1799,12 @@ a {
         justify-content: center;
         align-items: center;
         height: 50px;
+        font-size: 12px;
+    }
+
+    .btn_area button img {
+        width: 20px;
+        height: 20px;
     }
 
     .logo_flex {
@@ -1837,5 +1843,9 @@ a {
 
     .minor_item {
         width: 100%;
+    }
+
+    .hero-flex_item {
+        text-align: left!important;
     }
 }
