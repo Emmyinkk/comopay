@@ -247,7 +247,6 @@ a {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    text-transform: capitalize;
     padding-top: 2px;
     padding-left: 0;
     margin-left: -10px;
@@ -334,7 +333,6 @@ a {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-transform: capitalize;
 }
 
 .main-header {
@@ -444,7 +442,6 @@ a {
     font-style: normal;
     font-weight: 500;
     line-height: 24px; /* 150% */
-    text-transform: capitalize;
 }
 
 .soon {
@@ -501,7 +498,6 @@ a {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    text-transform: capitalize;
 }
 
 .abt-teamHead p {
@@ -593,7 +589,6 @@ a {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-transform: capitalize;
     padding: 8.5px 16px;
 }
 
@@ -605,7 +600,6 @@ a {
     font-style: normal;
     font-weight: 500;
     line-height: 48px; /* 120% */
-    text-transform: capitalize;
     margin-bottom: 48px;
     width: 100%;
     max-width: 734px;
@@ -649,7 +643,6 @@ a {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    text-transform: capitalize;
 }
 
 .discover-grid_child p{
@@ -658,7 +651,6 @@ a {
     font-style: normal;
     font-weight: 400;
     line-height: 24px; /* 150% */
-    text-transform: capitalize;
 }
 
 .mini_text {
@@ -667,7 +659,6 @@ a {
     font-style: normal;
     font-weight: 400;
     line-height: 24px; /* 150% */
-    text-transform: capitalize;
     width: 650px;
     margin-bottom: 56px;
 }
@@ -752,7 +743,6 @@ a {
     font-style: normal;
     font-weight: 800;
     line-height: 10.896px; /* 120% */
-    text-transform: capitalize;
     width: 60px;
     position: absolute;
     top: -20%;
@@ -767,7 +757,6 @@ a {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    text-transform: capitalize;
     margin-bottom: 7px;
 }
 
@@ -778,7 +767,6 @@ a {
     font-style: normal;
     font-weight: 400;
     line-height: 24px; /* 150% */
-    text-transform: capitalize;
 }
 
 .payday-container {
@@ -799,7 +787,6 @@ a {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    text-transform: capitalize;
     margin-bottom: 19px;
 }
 
@@ -851,7 +838,6 @@ a {
     font-style: normal;
     font-weight: 400;
     line-height: 9.922px; /* 120% */
-    text-transform: capitalize;
 }
 
 .mini-p span{
@@ -889,7 +875,6 @@ a {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    text-transform: capitalize;
     width: 100%;
     max-width: 738px;
     margin: 0 auto;
@@ -996,7 +981,6 @@ a {
     font-style: normal;
     font-weight: 106;
     line-height: 48px; /* 120% */
-    text-transform: capitalize;
     margin-top: 32px;
     margin-bottom: 16px;
 }
@@ -1010,7 +994,6 @@ a {
     font-style: normal;
     font-weight: 84;
     line-height: 24px; /* 150% */
-    text-transform: capitalize;
     margin: 0 auto;
 }
 
@@ -1136,7 +1119,6 @@ a {
     font-style: normal;
     font-weight: 400;
     line-height: 24px; /* 150% */
-    text-transform: capitalize;
     margin-bottom: 16px;
 }
 
@@ -1148,7 +1130,6 @@ a {
     font-style: normal;
     font-weight: 600;
     line-height: 24px; /* 150% */
-    text-transform: capitalize;
     margin-bottom: 8px;
 }
 
@@ -1186,7 +1167,6 @@ a {
     font-style: normal;
     font-weight: 106;
     line-height: 48px; /* 120% */
-    text-transform: capitalize;
     margin-top: 32px;
     margin-bottom: 16px;
 }
@@ -1199,7 +1179,6 @@ a {
     font-style: normal;
     font-weight: 400;
     line-height: 24px; /* 150% */
-    text-transform: capitalize;
 }
 
 .lists {
@@ -1228,7 +1207,6 @@ a {
     font-style: normal;
     font-weight: 500;
     line-height: 18px; /* 100% */
-    text-transform: capitalize;
     width: 262px;
 }
 
@@ -1239,7 +1217,6 @@ a {
     font-style: normal;
     font-weight: 400;
     line-height: 18px; /* 150% */
-    text-transform: capitalize;
 }
 
 .newsletter {
@@ -1259,7 +1236,6 @@ a {
     font-style: normal;
     font-weight: 500;
     line-height: 48px; /* 120% */
-    text-transform: capitalize;
     margin-bottom: 16px;
 }
 
@@ -1270,7 +1246,6 @@ a {
     font-style: normal;
     font-weight: 400;
     line-height: 24px; /* 150% */
-    text-transform: capitalize;
     width: 653px;
     margin-bottom: 32px;
 }
@@ -1312,7 +1287,6 @@ a {
     font-style: normal;
     font-weight: 84;
     line-height: 18px; /* 150% */
-    text-transform: capitalize;
 }
 
 .footer-container {
@@ -1349,7 +1323,6 @@ a {
     font-style: normal;
     font-weight: 400;
     line-height: 18px; /* 150% */
-    text-transform: capitalize;
     text-align: center;
     width: 100%;
     max-width: 800px;
