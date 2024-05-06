@@ -345,7 +345,7 @@ a {
     font-weight: 800;
     line-height: 76px; /* 118.75% */
     text-transform: capitalize;
-    padding-top: 40px;
+    padding-top: 20px;
     width: 100%;
     max-width: 922px;
     margin: 0 auto;
@@ -365,7 +365,6 @@ a {
     font-style: normal;
     font-weight: 400;
     line-height: 28px;
-    text-transform: capitalize;
     margin: 32px 0;
     width: 680px;
     margin: 0 auto;
@@ -1382,6 +1381,7 @@ a {
     border-radius: 32px;
     border: 0.5px solid #DDD;
     padding: 32px;
+    overflow: hidden;
 }
 
 .leftImage, .middleImage, .rightImage, .topmost {
