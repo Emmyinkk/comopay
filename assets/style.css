@@ -338,11 +338,11 @@ a {
 }
 
 .main-header {
-    color: #0B081B;
+    color: #000000;
     font-family: "Inter", sans-serif;
     font-size: 50px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 800;
     line-height: 76px; /* 118.75% */
     text-transform: capitalize;
     padding-top: 40px;
@@ -359,7 +359,7 @@ a {
 }
 
 .header-text {
-    color: #494D55;
+    color: rgba(5, 5, 0, .69);
     font-family: "Inter", sans-serif;
     font-size: 18px;
     font-style: normal;
@@ -537,6 +537,7 @@ a {
     height: 350px;
     width: 100%;
     object-fit: cover;
+    border-radius: 15px;
 }
 
 .abtImage {
@@ -1377,6 +1378,12 @@ a {
     overflow: hidden;
 }
 
+.image-side30 {
+    border-radius: 32px;
+    border: 0.5px solid #DDD;
+    padding: 32px;
+}
+
 .leftImage, .middleImage, .rightImage, .topmost {
     position: absolute;
     transform: translate(-50%, -50%);
@@ -1410,6 +1417,18 @@ a {
 .footerImg-ink img {
     width: 20px;
     height: 20px;
+}
+
+.abt-flexst {
+    background: url(/assets/085.png) no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.abt-flend {
+    background: url(/assets/086.png) no-repeat;
+    background-position: right;
+    background-size: contain;
 }
 
 @media only screen and (max-width: 991px ) {
@@ -1503,7 +1522,7 @@ a {
 
     .main-header {
         font-size: 32px;
-        font-weight: 500;
+        font-weight: 800;
         line-height: 40px; /* 125% */
         margin-top: 24px;
     }
@@ -1676,7 +1695,7 @@ a {
     }
 
     .second_flex {
-        width: 90%;
+        width: 100%;
         margin: 0 auto;
     }
 
@@ -1864,5 +1883,9 @@ a {
     
     .enclose {
         margin-left: -10px;
+    }
+
+    .btn_area span, .btn_area button {
+        font-size: 11px;
     }
 }
