@@ -1783,6 +1783,10 @@ a {
     .abt-teamHead p {
         font-size: 16px;
     }
+    
+    .newsletter {
+        padding: 20px;
+    }
 }
 
 @media screen and (max-width: 479px) {
@@ -1795,7 +1799,7 @@ a {
         grid-template-columns: repeat(2, 1fr);
     }
     .white-border {
-        width: 90%;
+        width: 100%;
     }
 
     .btn_area button {
@@ -1851,5 +1855,9 @@ a {
 
     .hero-flex_item {
         text-align: left!important;
+    }
+    
+    .enclose {
+        margin-left: -10px;
     }
 }
