@@ -196,8 +196,12 @@ a {
     width: 25%;
 } */
 
-.logo-flex, .link_btn, .link-list_flex  {
+.logo-flex, .link_btn {
     flex: 1;
+}
+
+.link-list_flex {
+    flex: 2;
 }
 
 .link_btn {
@@ -249,7 +253,7 @@ a {
     line-height: normal;
     padding-top: 2px;
     padding-left: 0;
-    margin-left: -10px;
+    margin-left: 5px;
 }
 
 .logo-text span {
@@ -1404,6 +1408,21 @@ a {
     background-size: contain;
 }
 
+.stk-header h3 {
+    font-family: Geist;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 49.6px;
+}
+
+.stk-header p {
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22.59px;
+    color: #494D55;
+}
+
 @media only screen and (max-width: 991px ) {
     .sm {
         display: block
@@ -1611,6 +1630,16 @@ a {
     .abt_hero {
         margin-top: 80px!important;
         margin-bottom: 0px!important;
+    }
+
+    .stk-header h3 {
+        font-size: 30px;
+        line-height: 49.6px;
+    }
+    
+    .stk-header p {
+        font-size: 16px;
+        line-height: 22.59px;
     }
 }
 

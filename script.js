@@ -65,46 +65,46 @@ function scrollImages() {
 
 
 
-console.clear();
+// console.clear();
 
-gsap.set('.wrapper',{xPercent:-50,yPercent:-50})
+// gsap.set('.wrapper',{xPercent:-50,yPercent:-50})
 
 
-var boxWidth = 150,
-totalWidth = boxWidth * 4,  //  * n of boxes
-no01 = document.querySelectorAll("#no01 .wrapper-box"),
-no02 = document.querySelectorAll("#no02 .wrapper-box"),
-dirFromLeft = "+=" + totalWidth,
-dirFromRight = "-=" + totalWidth;
+// var boxWidth = 150,
+// totalWidth = boxWidth * 4,  //  * n of boxes
+// no01 = document.querySelectorAll("#no01 .wrapper-box"),
+// no02 = document.querySelectorAll("#no02 .wrapper-box"),
+// dirFromLeft = "+=" + totalWidth,
+// dirFromRight = "-=" + totalWidth;
 
-var mod = gsap.utils.wrap(0, totalWidth);
+// var mod = gsap.utils.wrap(0, totalWidth);
 
-function marquee(which, time, direction){
-gsap.set(which, {
-x:function(i) {
-  return i * boxWidth;
-}
-});
-var action = gsap.timeline()
-.to(which, {autoAlpha:1, duration:0.1, stagger:-2})
-.to(which,  {
-x: direction,
-modifiers: {
-x: x => mod(parseFloat(x)) + "px"
-},
-duration:time, ease:'none',
-repeat:-1,
-},0);
-return action
-}
+// function marquee(which, time, direction){
+// gsap.set(which, {
+// x:function(i) {
+//   return i * boxWidth;
+// }
+// });
+// var action = gsap.timeline()
+// .to(which, {autoAlpha:1, duration:0.1, stagger:-2})
+// .to(which,  {
+// x: direction,
+// modifiers: {
+// x: x => mod(parseFloat(x)) + "px"
+// },
+// duration:time, ease:'none',
+// repeat:-1,
+// },0);
+// return action
+// }
 
-var master = gsap.timeline()
-.add(marquee(no01, 20, dirFromRight))
+// var master = gsap.timeline()
+// .add(marquee(no01, 20, dirFromRight))
 
-var master2 = gsap.timeline()
-.add(marquee(no02, 20, dirFromLeft))
+// var master2 = gsap.timeline()
+// .add(marquee(no02, 20, dirFromLeft))
 
-// =============================
+// // =============================
 
 
 
