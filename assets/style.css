@@ -1423,6 +1423,10 @@ a {
     color: #494D55;
 }
 
+.contact-info {
+    margin-top: 80px;
+}
+
 @media only screen and (max-width: 991px ) {
     .sm {
         display: block
